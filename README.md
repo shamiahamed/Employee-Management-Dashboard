@@ -47,26 +47,12 @@ Password: admin123
 
 ## Project Structure
 ```
-employee-dashboard/
-├── server/
-│   └── db.json              # mock employees + users data for json-server
-│
-├── src/                     # client — React / Vite app
-│   ├── components/          # Navbar, EmployeeTable, EmployeeForm,
-│   │                        # ConfirmModal, Pagination, Analytics, ProtectedRoute
-│   ├── constants/
-│   │   └── employee.js      # PAGE_SIZE, DEPARTMENTS, STATUSES, STATUS_BADGE_CLASSES
-│   ├── context/
-│   │   └── AuthContext.jsx  # login / logout / token state (Context API)
-│   ├── hooks/
-│   │   └── useDebounce.js   # reusable debounce hook
-│   ├── pages/               # Login, Dashboard
-│   └── services/
-│       └── api.js           # Axios instance + auth + CRUD API calls
-│
-├── index.html
-├── package.json
-└── vite.config.js
+src/
+  components/     # Navbar, EmployeeTable, EmployeeForm, ConfirmModal, Pagination, Analytics, ProtectedRoute
+  context/        # AuthContext (login/logout/token)
+  pages/          # Login, Dashboard
+  services/api.js # Axios instance + API calls
+db.json           # mock employees + users data for json-server
 ```
 
 ## Build

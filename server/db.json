@@ -10,7 +10,7 @@
   "employees": [
     {
       "id": "1",
-      "name": "Shamim Ahamed J",
+      "name": "Ravi Kumar",
       "email": "ravi.kumar@company.com",
       "department": "Engineering",
       "designation": "Software Engineer",
@@ -23,7 +23,7 @@
       "email": "priya.sharma@company.com",
       "department": "HR",
       "designation": "HR Manager",
-      "status": "Inactive",
+      "status": "Active",
       "joiningDate": "2023-06-10"
     },
     {
@@ -32,7 +32,7 @@
       "email": "arjun.nair@company.com",
       "department": "Sales",
       "designation": "Sales Executive",
-      "status": "Active",
+      "status": "Inactive",
       "joiningDate": "2022-11-02"
     },
     {
@@ -45,10 +45,19 @@
       "joiningDate": "2021-03-20"
     },
     {
+      "id": "5",
+      "name": "Vikram Singh",
+      "email": "vikram.singh@company.com",
+      "department": "Finance",
+      "designation": "Accountant",
+      "status": "Active",
+      "joiningDate": "2024-05-01"
+    },
+    {
       "id": "6",
       "name": "Anita Desai",
       "email": "anita.desai@company.com",
-      "department": "HR",
+      "department": "Marketing",
       "designation": "Marketing Lead",
       "status": "On Leave",
       "joiningDate": "2023-09-14"
@@ -68,7 +77,7 @@
       "email": "meera.pillai@company.com",
       "department": "HR",
       "designation": "Recruiter",
-      "status": "On Leave",
+      "status": "Active",
       "joiningDate": "2022-07-19"
     },
     {
@@ -126,22 +135,31 @@
       "joiningDate": "2024-03-08"
     },
     {
-      "name": "Deena Dhayalan",
-      "email": "kkdeena2001@gmail.com",
-      "department": "Engineering",
-      "designation": "Software Engineer",
-      "status": "Active",
-      "joiningDate": "2026-09-04",
-      "id": "d8GLir1wn1g"
+      "id": "15",
+      "name": "Manoj Tiwari",
+      "email": "manoj.tiwari@company.com",
+      "department": "Sales",
+      "designation": "Business Development",
+      "status": "On Leave",
+      "joiningDate": "2021-08-16"
     },
     {
-      "name": "Deena",
+      "name": "Deena ",
       "email": "kkdeena2001@gmail.com",
       "department": "Engineering",
-      "designation": "Software Engineer",
+      "designation": "AI Engineer",
       "status": "Active",
-      "joiningDate": "2026-09-04",
-      "id": "PPbWAWLrBcg"
+      "joiningDate": "2026-09-01",
+      "id": "MgL0Zz_l7gA"
+    },
+    {
+      "name": "Askeva",
+      "email": "ahamedshamin5@psnacet.edu.in",
+      "department": "HR",
+      "designation": "Recruiter",
+      "status": "Active",
+      "joiningDate": "2022-10-10",
+      "id": "VGHCvWPejqI"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"

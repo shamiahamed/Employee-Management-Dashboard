@@ -6,9 +6,9 @@ import EmployeeForm from "../components/EmployeeForm";
 import ConfirmModal from "../components/ConfirmModal";
 import Pagination from "../components/Pagination";
 import { getEmployees, createEmployee, updateEmployee, deleteEmployee } from "../services/api";
+
 import { useDebounce } from "../hooks/useDebounce";
 import { PAGE_SIZE, STATUS_FILTER_OPTIONS } from "../constants/employee";
-
 
 export default function Dashboard() {
   const [employees, setEmployees] = useState([]);
@@ -33,7 +33,8 @@ export default function Dashboard() {
     setError(null);
     try {
       const res = await getEmployees();
-      setEmployees(res.data);
+      // Reverse array so newly created items (appended to db.json) display first on Page 1 after refresh
+      setEmployees([...res.data].reverse());
     } catch {
       setError("Could not load employees. Is the API server running?");
     } finally {

@@ -14,7 +14,6 @@ export const STATUS_FILTER_OPTIONS = ["All", ...STATUSES];
  * Tailwind CSS class map for status badge colouring.
  * Used in EmployeeTable to style the status pill.
  */
-
 export const STATUS_BADGE_CLASSES = {
   Active: "bg-green-100 text-green-700",
   Inactive: "bg-red-100 text-red-700",
