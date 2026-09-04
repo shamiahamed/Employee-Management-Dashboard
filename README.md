@@ -47,12 +47,28 @@ Password: admin123
 
 ## Project Structure
 ```
-src/
-  components/     # Navbar, EmployeeTable, EmployeeForm, ConfirmModal, Pagination, Analytics, ProtectedRoute
-  context/        # AuthContext (login/logout/token)
-  pages/          # Login, Dashboard
-  services/api.js # Axios instance + API calls
-db.json           # mock employees + users data for json-server
+employee-dashboard/
+├── client/                  # Frontend React + Vite Application
+│   ├── public/
+│   ├── src/
+│   │   ├── components/      # Navbar, EmployeeTable, EmployeeForm, ConfirmModal, etc.
+│   │   ├── constants/       # Centralized employee constants (PAGE_SIZE, DEPARTMENTS, etc.)
+│   │   ├── context/         # AuthContext (login / logout / token state)
+│   │   ├── hooks/           # Custom reusable hooks (useDebounce)
+│   │   ├── pages/           # Login, Dashboard
+│   │   └── services/        # Axios instance + REST API calls
+│   ├── index.html
+│   ├── package.json
+│   ├── postcss.config.js
+│   ├── tailwind.config.js
+│   └── vite.config.js
+│
+├── server/                  # Backend Mock REST API
+│   ├── db.json              # Mock database (users + employees)
+│   └── package.json
+│
+├── package.json             # Root workspace script runner
+└── README.md
 ```
 
 ## Build

@@ -78,7 +78,7 @@
       "department": "HR",
       "designation": "Recruiter",
       "status": "Active",
-      "joiningDate": "2022-07-19"
+      "joiningDate": "2022-07-02"
     },
     {
       "id": "9",
@@ -131,7 +131,7 @@
       "email": "pooja.agarwal@company.com",
       "department": "HR",
       "designation": "HR Executive",
-      "status": "Active",
+      "status": "On Leave",
       "joiningDate": "2024-03-08"
     },
     {
